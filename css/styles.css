@@ -455,6 +455,18 @@ Services
 .service:hover .underline {
   background: var(--clr-white);
 }
+@media screen and (min-width: 676px) {
+  .section-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .section-center {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 /*
 =============== 
 Projects
